@@ -1,0 +1,46 @@
+[
+  {
+    "id": "football-analysis",
+    "title": "Football Match Analysis",
+    "category": "Sports Analytics",
+    "tools": ["Python", "Pandas", "SQL"],
+    "description": "Analyzed match outcomes, goals, and home vs away performance.",
+    "insights": [
+      "Home teams win 18% more matches",
+      "High-scoring leagues show less draw probability"
+    ],
+    "github": "https://github.com/hamzalamkhailif/football-analysis",
+    "live": "#",
+    "images": [
+      "https://picsum.photos/800/400?random=1",
+      "https://picsum.photos/800/400?random=2"
+    ],
+    "kpis": [
+      { "label": "Matches Analyzed", "value": 120 },
+      { "label": "Goals Counted", "value": 345 },
+      { "label": "Leagues Covered", "value": 5 }
+    ]
+  },
+  {
+    "id": "sales-dashboard",
+    "title": "Sales Dashboard",
+    "category": "Business Analytics",
+    "tools": ["Excel", "SQL"],
+    "description": "Tracked revenue, top products, and customer segments.",
+    "insights": [
+      "Top 10% products drive 65% revenue",
+      "Customer churn decreased by 12%"
+    ],
+    "github": "https://github.com/hamzalamkhailif/sales-dashboard",
+    "live": "#",
+    "images": [
+      "https://picsum.photos/800/400?random=3",
+      "https://picsum.photos/800/400?random=4"
+    ],
+    "kpis": [
+      { "label": "Products Tracked", "value": 200 },
+      { "label": "Revenue Tracked", "value": "$120K" },
+      { "label": "Regions Covered", "value": 5 }
+    ]
+  }
+]
