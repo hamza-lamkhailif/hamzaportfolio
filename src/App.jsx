@@ -6,8 +6,16 @@ import Projects from "./pages/Projects";
 import ProjectDetails from "./pages/ProjectDetails";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
+import Maintenance from "./pages/Maintenance";
+
+const isMaintenance = import.meta.env.VITE_MAINTENANCE === "true";
+console.log(import.meta.env.VITE_MAINTENANCE);
 
 function App() {
+  if (isMaintenance) {
+    return <Maintenance />;
+  }
   return (
     <Router>
       <div className="min-h-screen bg-background text-text flex flex-col">
@@ -21,6 +29,7 @@ function App() {
             <Route path="/projects/:id" element={<ProjectDetails />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
 
