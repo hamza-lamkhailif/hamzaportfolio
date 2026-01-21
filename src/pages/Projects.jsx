@@ -10,9 +10,7 @@ const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: {
-      staggerChildren: 0.15,
-    },
+    transition: { staggerChildren: 0.15 },
   },
 };
 
@@ -24,11 +22,7 @@ const itemVariants = {
     scale: 1,
     transition: { duration: 0.4, ease: "easeOut" },
   },
-  exit: {
-    opacity: 0,
-    scale: 0.9,
-    transition: { duration: 0.2 },
-  },
+  exit: { opacity: 0, scale: 0.9, transition: { duration: 0.2 } },
 };
 
 const Projects = () => {
@@ -95,10 +89,13 @@ const Projects = () => {
               initial="hidden"
               animate="visible"
               exit="exit"
-              onClick={() => navigate(`/projects/${project.id}`)}
-              className="cursor-pointer"
             >
-              <ProjectCard project={project} />
+              <ProjectCard
+                project={project}
+                onClick={() =>
+                  !project.comingSoon && navigate(`/projects/${project.id}`)
+                }
+              />
             </motion.div>
           ))}
         </AnimatePresence>

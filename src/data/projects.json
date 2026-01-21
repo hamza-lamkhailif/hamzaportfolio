@@ -1,46 +1,58 @@
 [
   {
-    "id": "football-analysis",
-    "title": "Football Match Analysis",
-    "category": "Sports Analytics",
-    "tools": ["Python", "Pandas", "SQL"],
-    "description": "Analyzed match outcomes, goals, and home vs away performance.",
-    "insights": [
-      "Home teams win 18% more matches",
-      "High-scoring leagues show less draw probability"
-    ],
-    "github": "https://github.com/hamzalamkhailif/football-analysis",
-    "live": "#",
-    "images": [
-      "https://picsum.photos/800/400?random=1",
-      "https://picsum.photos/800/400?random=2"
-    ],
-    "kpis": [
-      { "label": "Matches Analyzed", "value": 120 },
-      { "label": "Goals Counted", "value": 345 },
-      { "label": "Leagues Covered", "value": 5 }
-    ]
-  },
+  "id": "european-football-analytics-24-25",
+  "title": "European Football Analytics | 2024–25",
+  "category": "Sports Analytics",
+  "tools": ["MySQL", "Power BI", "Excel", "DAX"],
+  "description": "Analyzed match outcomes, goals, home vs away performance, and trends across 6 top European football leagues during the 2024–2025 season. Built interactive dashboards with KPIs, slicers, and visual analytics.",
+  "insights": [
+    "Home teams win significantly more matches than away teams across all leagues",
+    "Premier League shows the highest average goals per match",
+    "Goal scoring tends to increase in the second half of the season",
+    "Draw rate is higher in defensive leagues like Serie A"
+  ],
+  "github": "https://github.com/hamza-lamkhailif/european-football-analytics-24-25",
+  "live": "https://github.com/hamza-lamkhailif/european-football-analytics-24-25",
+  "images": [
+    "/kpis.png",
+    "/dashboard_overview.PNG",
+    "/charts1.png",
+    "/charts2.png"
+    
+  ],
+  "kpis": [
+    { "label": "Matches Analyzed", "value": "+2000" },
+    { "label": "Total Goals", "value": "+5000" },
+    { "label": "Leagues Covered", "value": 6 },
+    { "label": "Avg Goals per Match", "value": 2.83 },
+    { "label": "Home Win %", "value": 45 },
+    { "label": "Away Win %", "value": 27 },
+    { "label": "Draw %", "value": 28 }
+  ]
+}
+,
   {
-    "id": "sales-dashboard",
-    "title": "Sales Dashboard",
-    "category": "Business Analytics",
-    "tools": ["Excel", "SQL"],
-    "description": "Tracked revenue, top products, and customer segments.",
-    "insights": [
-      "Top 10% products drive 65% revenue",
-      "Customer churn decreased by 12%"
-    ],
-    "github": "https://github.com/hamzalamkhailif/sales-dashboard",
-    "live": "#",
-    "images": [
-      "https://picsum.photos/800/400?random=3",
-      "https://picsum.photos/800/400?random=4"
-    ],
-    "kpis": [
-      { "label": "Products Tracked", "value": 200 },
-      { "label": "Revenue Tracked", "value": "$120K" },
-      { "label": "Regions Covered", "value": 5 }
-    ]
-  }
+  "id": "sales-dashboard",
+  "title": "Sales Dashboard",
+  "category": "Business Analytics",
+  "tools": ["Excel", "SQL"],
+  "description": "Tracked revenue, top products, and customer segments.",
+  "insights": [
+    "Top 10% products drive 65% revenue",
+    "Customer churn decreased by 12%"
+  ],
+  "github": "https://github.com/hamzalamkhailif/sales-dashboard",
+  "live": "#",
+  "comingSoon": true,
+  "images": [
+    "https://picsum.photos/800/400?random=3",
+    "https://picsum.photos/800/400?random=4"
+  ],
+  "kpis": [
+    { "label": "Products Tracked", "value": 200 },
+    { "label": "Revenue Tracked", "value": "$120K" },
+    { "label": "Regions Covered", "value": 5 }
+  ]
+}
+
 ]
