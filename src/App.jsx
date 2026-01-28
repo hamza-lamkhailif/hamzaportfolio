@@ -10,22 +10,22 @@ import NotFound from "./pages/NotFound";
 import Maintenance from "./pages/Maintenance";
 
 const isMaintenance = import.meta.env.VITE_MAINTENANCE === "true";
-console.log(import.meta.env.VITE_MAINTENANCE);
 
 function App() {
   if (isMaintenance) {
     return <Maintenance />;
   }
+
   return (
     <Router>
       <div className="min-h-screen bg-background text-text flex flex-col">
         <Navbar />
 
-        <main className="flex-1 pt-28">
+        {/* Removed pt-28, components handle their own spacing */}
+        <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />{" "}
-            {/* optional, for all projects page */}
+            <Route path="/projects" element={<Projects />} />
             <Route path="/projects/:id" element={<ProjectDetails />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

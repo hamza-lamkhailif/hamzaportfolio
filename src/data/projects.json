@@ -31,28 +31,34 @@
   ]
 }
 ,
-  {
-  "id": "sales-dashboard",
-  "title": "Sales Dashboard",
-  "category": "Business Analytics",
-  "tools": ["Excel", "SQL"],
-  "description": "Tracked revenue, top products, and customer segments.",
+ {
+  "id": "pizza-sales-analysis",
+  "title": "Pizza Sales Performance Analysis",
+  "category": "Data Analytics",
+  "tools": ["SQL (MySQL)", "Power BI"],
+  "description": "End-to-end sales analysis of a pizza restaurant to evaluate revenue performance, customer ordering behavior, best and worst-selling pizzas, and peak sales periods. SQL was used for data extraction and validation, while Power BI was used for visualization and business insights.",
   "insights": [
-    "Top 10% products drive 65% revenue",
-    "Customer churn decreased by 12%"
+    "Thai Chicken Pizza generates the highest revenue despite not being the top-selling by quantity",
+    "Classic Deluxe Pizza leads in total orders and quantities sold",
+    "Friday evenings and weekends show peak order volume",
+    "Large-size pizzas contribute the highest share of total sales",
+    "Brie Carre Pizza consistently underperforms across revenue, quantity, and orders"
   ],
-  "github": "https://github.com/hamzalamkhailif/sales-dashboard",
-  "live": "#",
-  "comingSoon": true,
+  "github": "https://github.com/hamza-lamkhailif/pizza-sales-analysis-sql-powerbi",
+  "live": "https://github.com/hamza-lamkhailif/pizza-sales-analysis-sql-powerbi",
+  "comingSoon": false,
   "images": [
-    "https://picsum.photos/800/400?random=3",
-    "https://picsum.photos/800/400?random=4"
+    "/1st-dashboard.PNG",
+    "/2sd-dashboard.PNG"
   ],
   "kpis": [
-    { "label": "Products Tracked", "value": 200 },
-    { "label": "Revenue Tracked", "value": "$120K" },
-    { "label": "Regions Covered", "value": 5 }
+    { "label": "Total Revenue", "value": "$817.86K" },
+    { "label": "Total Orders", "value": "21,350" },
+    { "label": "Total Pizzas Sold", "value": "49,574" },
+    { "label": "Avg Order Value", "value": "$38.31" },
+    { "label": "Avg Pizzas per Order", "value": "2.32" }
   ]
 }
+
 
 ]
